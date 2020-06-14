@@ -14,7 +14,7 @@ namespace TodoApp.Models
         private bool _isDone;
         private string _text;
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged; 
 
         public bool IsDone
         {
